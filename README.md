@@ -1,1 +1,1 @@
-Joe's gardening website
+Emily's gardening website
