@@ -38,7 +38,7 @@ p {
 /* Heading section */
 .big-heading {
   font-family: 'Montserrat';
-  font-size: 3.5rem;
+  font-size: 3.0rem;
   line-height: 1.5;
   font-weight: bold;
   padding-top: 20%;
@@ -133,7 +133,7 @@ width: 99%;
   } */
 
 .testimonial-text {
-  font-size: 3rem;
+  font-size: 2rem;
   line-height: 1.5;
 }
 
