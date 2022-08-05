@@ -1,10 +1,9 @@
 <!DOCTYPE html>
 <html>
 
-
 <head>
   <meta charset="utf-8">
-  <title>Joe's Garden Center</title>
+  <title>Emily & John's Garden Center</title>
   <!-- what if these links address changes? -->
 
   <!-- Fantawesome -->
@@ -22,16 +21,7 @@
   <!-- bootstrap script-->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-CCX1PFG0YE"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'G-CCX1PFG0YE');
-</script>
-  
 </head>
 
 <body>
@@ -42,19 +32,20 @@
 
       <!-- Nav Bar remove bg-dark use"ms-auto" not "ml-auto" to put the items to the right of the screen  -->
       <nav class="navbar navbar-expand-lg navbar-dark bg-success">
-        <a class="navbar-brand" href="">Joe's Garden Center</a>
+        <a class="navbar-brand" href="">Emily and John's Garden Center</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto">
+            <!--
             <li class="nav-item">
               <a class="nav-link" href="#footer">Contact</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#pricing">Product</a>
             </li>
-            <!-- <li class="nav-item">
+             <li class="nav-item">
               <a class="nav-link" href="#cta">Download</a>
             </li> -->
           </ul>
@@ -67,9 +58,9 @@
 
       <div class="row">
         <div class="col-lg-6">
-          <h1 class="big-heading">Meet our Garden Center</h1>
+          <h1 class="big-heading">Welcome to our Garden Center</h1>
           <p>
-            Our passion for Gardening
+            
           </p>
 
           <!-- <button type="button" class="btn btn-dark btn-lg btn-download">Download</button>
@@ -90,22 +81,25 @@
     <div class="container-fluid">
 
     <div class="row">
-      <div class="feature-box col-lg-4">
-        <i class="fa-solid fa-heart fa-4x"></i>
-        <h3 class="feature-title">Natural Life</h3>
-        <p>Enbrace the attribute of natural life.</p>
-      </div>
 
       <div class="feature-box col-lg-4">
         <i class="fa-solid fa-circle fa-4x"></i>
-        <h3 class="feature-title">Organic Vegetables</h3>
-        <p>Refuse to use the chemical fertilizer.</p>
+        <h3 class="feature-title">Organic Food</h3>
+        <p>Enjoy the organic vegetables and fruits.</p>
       </div>
 
       <div class="feature-box col-lg-4">
+        <i class="fa-solid fa-heart fa-4x"></i>
+        <h3 class="feature-title">More Exercise</h3>
+        <p>You are doing exercises while you are gardening!</p>
+      </div>
+
+      
+
+      <div class="feature-box col-lg-4">
         <i class="fa-solid fa-circle-notch fa-4x"></i>
-        <h3 class="feature-title">Useful Tools</h3>
-        <p>Find the useful tools for your own gardening if you have the same passion as us.</p>
+        <h3 class="feature-title">Life Balance</h3>
+        <p>Enjoy the life besides our working.</p>
       </div>
 
     </div>
@@ -131,8 +125,8 @@
 
   <section class="color-section" id="pricing">
 
-    <h2 class="section-heading">Organic Vegetables for Everyday Life</h2>
-    <p>Organic Vegetables: healthy for Every Everyday Life.</p>
+    <h2 class="section-heading">Organic Vegetables</h2>
+    <p></p>
 
 <!-- after deleting <h3> style,we don't need specify a class for <h3> here because it is in class "card" that has its own style.  -->
     <div class="row">
@@ -200,15 +194,15 @@
     <div id="testimonial-carousel" class="carousel slide" data-bs-ride="false">
       <div class="carousel-inner">
         <div class="carousel-item active container-fluid">
-          <h2 class="testimonial-text">The biggist and most delicious tomatoes ever we have eat, 2lb for each!</h2>
+          <h2 class="testimonial-text">The biggist tomato is almost 2 lb for each!</h2>
           <img class="testimonial-image" src="images/biggist-tomato.jpg" alt="biggist-tomato">
-          <em>Lily, Mississauga</em>
+          <em></em>
         </div>
 
         <div class="carousel-item container-fluid">
-          <h2 class="testimonial-text">The true organic Vegetables, like the ones when we ate many years ago.</h2>
+          <h2 class="testimonial-text">We tried Cabbage this year~</h2>
           <img class="testimonial-image" src="images/cabbage.jpg" alt="cabbage.jpg">
-          <em>Juan, Toronto</em>
+          <em></em>
         </div>
 
       </div>
@@ -225,30 +219,23 @@
 
   </section>
 
-  <!-- Call to Action -->
-
-  <section class="color-section" id="cta">
-  <div class="container-fluid">
-
-
-    <h3 class="cta-heading">Find the True Love of Your Life Today.</h3>
-    <!-- <button type="button" class="btn btn-dark btn-lg btn-download">Download</button>
-    <button type="button" class="btn btn-outline-light btn-lg btn-download">Download</button> -->
-  </div>
-  </section>
 
 
   <!-- Footer -->
 
   <footer id="footer">
     <div class="container-fluid">
+     
 
-<i class="social-icon fa-brands fa-twitter"></i>
+<a href="https://www.linkedin.com/in/qiaoxia-emily-liang/" class="social-icon fa-brands fa-linkedin"></a>
+<a href="https://github.com/QiaoxiaEmily" class="social-icon fa-brands fa-github"></a>
+
+<!--
 <i class="social-icon fa-brands fa-facebook" ></i>
 <i class="social-icon fa-brands fa-instagram-square"></i>
 <i class="social-icon fa-solid fa-envelope"></i>
-
-    <p>© Copyright Joe's Garden Center</p>
+-->
+    <p>© Copyright Emily & John's Garden Center</p>
     </div>
   </footer>
 
